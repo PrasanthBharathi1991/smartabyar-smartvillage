@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/computate-org/smartvillage-platform.git
-    targetRevision: HEAD
-    path: openshift/kustomize/bundles/postgres/app
+    repoURL: https://github.com/PrasanthBharathi1991/smartabyar-smartvillage.git
+    targetRevision: main
+    path: kustomize/bundles/postgres/app
   destination:
     namespace: postgres
     server: 'https://kubernetes.default.svc'
